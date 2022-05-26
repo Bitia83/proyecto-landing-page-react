@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { MusicSection } from './componentes';
 import { Navbar } from './componentes';
 import { DiscoverSection } from './componentes';
+import { JoinSection } from './componentes';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <MusicSection />
       <DiscoverSection />
+      <JoinSection />
     </Router>
   );
 }

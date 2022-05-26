@@ -64,13 +64,13 @@ export const Heading = styled.h1`
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#f7f8fa')};
 `;
+
 export const EqualDivider = styled.div`
   display: flex;
   justify-content: flex-start;
   /*margin: rem;*/
  /* padding: 0.5rem;*/
-  background: #2F303A
-;
+  background: #2F303A;
   `;
 
 export const Child = styled.div`
