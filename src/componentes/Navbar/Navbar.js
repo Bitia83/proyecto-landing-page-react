@@ -18,22 +18,19 @@ const Navbar = () => {
           </NavLogo>
           <NavMenu onClick={handleClick}>
             <NavItem>
-              <NavLinks to='/'>
+              <NavLinks to='/DiscoverSection'>
                 Discover
               </NavLinks>
             </NavItem>
          
             <NavItem>
-              <NavLinks to='/join'>
+              <NavLinks to= '/'>
                 Join
               </NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
-          
-
-
-      </Nav>
+           </Nav>
     </>
   );
 };

@@ -18,11 +18,11 @@ const joinSection = (formStart) => {
          <FormWrap>
             <FormContent>
                <Form action="#">
-               <FormLabel htmlForm='for'>Name</FormLabel>  
+               <FormLabel htmlForm='for'>Name:</FormLabel>  
                   <FormInput typer='name' required /> 
-               <FormLabel htmlForm='for'>Email</FormLabel> 
+               <FormLabel htmlForm='for'>Email:</FormLabel> 
                   <FormInput typer='email' required />                
-               <FormLabel htmlForm='for'>Password</FormLabel> 
+               <FormLabel htmlForm='for'>Password:</FormLabel> 
                   <FormInput typer='password' required />   
                 <FormButton type='Submit'>Join Now</FormButton>          
                 </Form>        

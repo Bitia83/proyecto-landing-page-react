@@ -6,13 +6,13 @@ export const MusicSec = styled.div`
   background: #2F303A;
 
 `;
-
 export const InfoRow = styled.div`
   display: flex;
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
   align-items: center;
-  flex-direction: ${({ imgStart }) => (imgStart ? 'row' : 'row-reverse')};
+ flex-direction: row-reverse;
+
 `;
 
 

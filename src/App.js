@@ -5,15 +5,19 @@ import { MusicSection } from './componentes';
 import { Navbar } from './componentes';
 import { DiscoverSection } from './componentes';
 import { JoinSection } from './componentes';
+import { FooterSection } from './componentes';
 
 function App() {
   return (
+    
     <Router>
+     
       <GlobalStyle />
       <Navbar />
       <MusicSection />
       <DiscoverSection />
-      <JoinSection />
+     <JoinSection />
+      <FooterSection/>
     </Router>
   );
 }

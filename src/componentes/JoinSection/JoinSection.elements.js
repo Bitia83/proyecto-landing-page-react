@@ -10,7 +10,6 @@ export const JoinSec = styled.div`
 
 export const InfoRow = styled.div`
   display: flex;
-  margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
@@ -18,7 +17,7 @@ export const InfoRow = styled.div`
 
 export const InfoColumn = styled.div`
   margin-bottom: 15px;
-  padding-right: 15px;
+  padding-right: 55px;
   padding-left: 15px;
   flex: 1;
   max-width: 50%;
@@ -35,7 +34,7 @@ export const InfoColumn = styled.div`
 
 export const Heading = styled.h1`
   margin-bottom: 5px;
-  font-size: 48px;
+  font-size: 60px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#f7f8fa')};
@@ -66,14 +65,14 @@ export const FormContent = styled.div`
 
 export const Form = styled.form`
 background: #202027;
-max-width: 400px;
+max-width: 500px;
 height: auto;
 width: 100%;
 z-index: 1;
 display: grid;
 margin: 0 auto;
-padding: 80px 32px;
-border-radius: 4px;
+padding: 40px 32px;
+border-radius: 15px;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
 @media screen and (max-width: 480px) {
@@ -87,18 +86,28 @@ export const FormLabel = styled.label`
 `;
 
 export const FormInput = styled.input`
- padding: 16px 16px;
- margin-bottom: 32px;
- border: none;
+ padding: 10px 16px;
+ margin-bottom: 25px;
+ border: 1px solid;
  border-radius: 4px;
+ background: #202027;
+ border-color: #2E3852;
+ color: #fff;
 `;
 
 export const FormButton = styled.button`
 background: #1762A7;
-padding: 16px 0;
+padding: 10px 0;
 border: none;
 border-radius: 4px;
 color: #fff;
-font-size: 20px;
+font-size: 15px;
 cursor: pointer;
+
+&:hover {
+  transition: all 0.3s ease-out;
+  background:#2796ff ;
+  background-color: ${({ primary }) => 
+(primary ? '#2796ff' : '#2796ff')};
+}
 `;

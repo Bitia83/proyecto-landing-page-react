@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-/*import {GiSoundWaves} from 'react-icons/gi' */
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
@@ -25,11 +24,10 @@ height: 80px;
 
 ${Container}
 
-
 `;
 
 export const NavLogo = styled(Link)`
-color: #fff;
+  color: #fff;
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
