@@ -4,7 +4,7 @@ import { Container } from '../../globalStyles';
 
 
 export const FooterSec = styled.footer`
-background: #2F303A;
+background: #202027;
 height: 80px;
 display: flex;
 justify-content: center;

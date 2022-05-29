@@ -1,6 +1,7 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
+
 import logo from '../../imagenes/logo.png';
-import { Nav, NavbarContainer, NavLogo, NavIcon, NavMenu, NavItem, NavLinks } from './Navbar.elements';
+import { Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks } from './Navbar.elements';
 
 
 const Navbar = () => {
@@ -18,13 +19,12 @@ const Navbar = () => {
           </NavLogo>
           <NavMenu onClick={handleClick}>
             <NavItem>
-              <NavLinks to='/DiscoverSection'>
-                Discover
+              <NavLinks to='/discover'>Discover
               </NavLinks>
             </NavItem>
          
             <NavItem>
-              <NavLinks to= '/'>
+              <NavLinks to= '/join'>
                 Join
               </NavLinks>
             </NavItem>

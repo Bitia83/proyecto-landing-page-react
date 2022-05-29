@@ -37,11 +37,6 @@ export const NavLogo = styled(Link)`
 `;
 
 
- /*export const NavIcon = styled`
-  margin-right: 0.5rem;
-  color:  #FC00E9;
-  font-size: 3rem;
-`; */
 
 export const NavMenu = styled.ul`
   display: flex;
@@ -56,7 +51,6 @@ export const NavMenu = styled.ul`
     height: 90vh; 
     position: absolute;
     top: 80px;
-    left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
     background: #101522;

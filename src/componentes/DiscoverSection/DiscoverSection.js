@@ -9,8 +9,7 @@ import more from '../../imagenes/more.svg'
 import FooterSection from '../FooterSection/FooterSection';
 
 
-const DiscoverSection = ({ lightBg, imgStart, primary, lightTextDes, buttonLabel, 
-    description, headline, lightText, topLine, start }) => {
+const DiscoverSection = ({ imgStart, start }) => {
       return (
         <>
           <MusicSec >
@@ -36,7 +35,6 @@ const DiscoverSection = ({ lightBg, imgStart, primary, lightTextDes, buttonLabel
               </InfoRow>
             </Container>
           </MusicSec>
-          <FooterSection/>
         </>
       );
     };

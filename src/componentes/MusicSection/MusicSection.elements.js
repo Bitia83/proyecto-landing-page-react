@@ -1,10 +1,28 @@
 import styled from 'styled-components';
+import { CirculoA } from '../../globalStyles';
+
 
 export const MusicSec = styled.div`
  color: #fff;
   padding: 160px 0;
   background: #2F303A;
 
+`;
+
+export const CirculoB = styled(CirculoA)`
+ margin-top: -110px;
+ margin-left: 310px;
+ background:#3457b21a;
+
+ ${CirculoA}
+`;
+
+export const CirculoC = styled(CirculoA)`
+width: 600px;
+height: 600px;
+margin-top: 100px;
+margin-left: 950px;
+background:#3457b21a;
 `;
 export const InfoRow = styled.div`
   display: flex;
@@ -61,7 +79,6 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#f7f8fa')};
 `;
 
 export const Subtitle = styled.p`
@@ -69,6 +86,5 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#f7f8fa' :'#f7f8fa')};
-`;
+ `;
 

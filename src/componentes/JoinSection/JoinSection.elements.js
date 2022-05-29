@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { CirculoA } from '../../globalStyles';
+
 
 export const JoinSec = styled.div`
  color: #fff;
@@ -7,6 +9,24 @@ export const JoinSec = styled.div`
 
 `;
 
+export const CirculoD = styled(CirculoA)`
+margin-top: 150px;
+margin-left:-300px;
+width: 500px ;
+height: 500px;
+
+${CirculoA}
+`;
+
+export const CirculoE = styled(CirculoA)`
+margin-top: -10px;
+margin-left:200px;
+width: 350px ;
+height: 350px;
+background:#3457b21a;
+
+${CirculoA}
+`;
 
 export const InfoRow = styled.div`
   display: flex;
@@ -16,6 +36,7 @@ export const InfoRow = styled.div`
 `;
 
 export const InfoColumn = styled.div`
+  
   margin-bottom: 15px;
   padding-right: 55px;
   padding-left: 15px;
@@ -37,9 +58,10 @@ export const Heading = styled.h1`
   font-size: 60px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#f7f8fa')};
+  span {
+    color: #F30094;
+  }
 `;
-
 
 export const FormWrap = styled.div`
 height: 100%;
@@ -107,7 +129,5 @@ cursor: pointer;
 &:hover {
   transition: all 0.3s ease-out;
   background:#2796ff ;
-  background-color: ${({ primary }) => 
-(primary ? '#2796ff' : '#2796ff')};
 }
 `;

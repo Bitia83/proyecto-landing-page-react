@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '../../globalStyles'
-import { InfoRow, InfoColumn, Heading, Form, FormWrap, FormContent, FormLabel, FormInput, FormButton, JoinSec  } from './JoinSection.elements'
+import { CirculoD, CirculoE, InfoRow, InfoColumn, Heading, Form, FormWrap, FormContent, FormLabel, FormInput, FormButton, JoinSec  } from './JoinSection.elements'
 
 
 
@@ -9,10 +9,12 @@ const joinSection = (formStart) => {
   return (
       <>
           <JoinSec>
-          <Container>
+           <Container>
+           <CirculoD />
+            <CirculoE/> 
               <InfoRow formStart={formStart}> 
                   <InfoColumn>
-                  <Heading>Join The Fun</Heading>
+                  <Heading>Join The <span> fun.</span></Heading>
                   </InfoColumn>  
                   <InfoColumn>
          <FormWrap>
