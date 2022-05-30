@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+/*import {Link } from 'react-router-dom';*/
 import { Container } from '../../globalStyles';
 
 
@@ -26,7 +26,7 @@ ${Container}
 
 `;
 
-export const NavLogo = styled(Link)`
+export const NavLogo = styled.div`
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
@@ -45,21 +45,31 @@ export const NavMenu = styled.ul`
   text-align: center;
   
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     width: 100%;
-    height: 90vh; 
-    position: absolute;
+    height: 10vh; 
+    
     top: 80px;
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: #2F303A;
   }
 `;
 
 export const NavItem = styled.li`
   height: 80px;
   border-bottom: 2px solid transparent;
+ a{
+  color: #fff;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0.5rem 1rem;
+height: 100%;
+ }
+
+
   &:hover {
     border-bottom: 2px solid #4b59f7;
   }
@@ -71,7 +81,7 @@ export const NavItem = styled.li`
   }
 `; 
 
-export const NavLinks = styled(Link)`
+ /*export const NavLink = styled(Link)`
   color: #fff;
   display: flex;
   align-items: center;
@@ -90,4 +100,4 @@ export const NavLinks = styled(Link)`
       transition: all 0.3s ease;
     }
   }
-`;
+`; */

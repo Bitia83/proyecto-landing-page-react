@@ -8,7 +8,7 @@ import { CirculoD, CirculoE, InfoRow, InfoColumn, Heading, Form, FormWrap, FormC
 const joinSection = (formStart) => {
   return (
       <>
-          <JoinSec>
+          <JoinSec id='join'>
            <Container>
            <CirculoD/>
             <CirculoE/> 

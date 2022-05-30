@@ -26,6 +26,8 @@ export const Container = styled.div`
     padding-left: 30px;
   }
 `;
+
+ /* superponer div = position y z-index */
 export const CirculoA = styled.div`
  width: 370px;
  height: 370px;
@@ -51,7 +53,7 @@ export const Button = styled.button`
   border-radius: 4px;
   background: ${({ primary }) => (primary ? '#2796ff' : '#1762A7')};
   white-space: nowrap;
-  padding: ${({ big }) => (big ? '10px 15px' : '10px 10px')};
+  padding: ${({ big }) => (big ? '10px 12px' : '10px 8px')};
   color: #fff;
   font-size: ${({ fontBig }) => (fontBig ? '15px' : '12px')};
   outline: none;
@@ -65,7 +67,7 @@ export const Button = styled.button`
     
   }
   @media screen and (max-width: 960px) {
-    width: 30%;
+    width: 25%;
   }
 `;
 

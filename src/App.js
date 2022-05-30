@@ -13,9 +13,7 @@ function App() {
        <GlobalStyle />
       <Navbar />
       <MusicSection />
-      
-      
-      <DiscoverSection/>
+     <DiscoverSection/>
 
       <JoinSection/> 
       <FooterSection />

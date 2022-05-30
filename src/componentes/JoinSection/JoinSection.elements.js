@@ -10,22 +10,25 @@ export const JoinSec = styled.div`
 `;
 
 export const CirculoD = styled(CirculoA)`
+
+
 margin-top: 150px;
 margin-left:-300px;
 width: 500px ;
 height: 500px;
 
-${CirculoA}
+
 `;
 
 export const CirculoE = styled(CirculoA)`
+
 margin-top: -10px;
 margin-left:200px;
 width: 350px ;
 height: 350px;
 background:#3457b21a;
 
-${CirculoA}
+
 `;
 
 export const InfoRow = styled.div`

@@ -7,12 +7,13 @@ import microphone from '../../imagenes/microphone.svg'
 import albums from '../../imagenes/albums.svg'
 import more from '../../imagenes/more.svg'
 import FooterSection from '../FooterSection/FooterSection';
+import { FooterSec } from '../FooterSection/FooterSection.elements';
 
 
 const DiscoverSection = ({ imgStart, start }) => {
       return (
         <>
-          <MusicSec >
+          <MusicSec id='discover'>
             <Container>
               <InfoRow imgStart={imgStart}>
                 <InfoColumn>
@@ -35,6 +36,7 @@ const DiscoverSection = ({ imgStart, start }) => {
               </InfoRow>
             </Container>
           </MusicSec>
+          
         </>
       );
     };

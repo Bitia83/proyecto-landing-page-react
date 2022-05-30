@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Button, CirculoA } from '../../globalStyles'; 
-import { MusicSec, CirculoB, CirculoC, InfoRow, InfoColumn, TextWrapper, Heading, Subtitle, Img, ImgWrapper } from './MusicSection.elements';
+
+import { Container,  CirculoA } from '../../globalStyles'; 
+import { MusicSec, CirculoB, CirculoC, InfoRow, InfoColumn, TextWrapper,ButtonNav, Heading, Subtitle, Img, ImgWrapper } from './MusicSection.elements';
 import landing from '../../imagenes/landing.png';
  
 
@@ -18,11 +18,10 @@ const MusicSection = () => {
               <TextWrapper>
                 <Heading>Feel The Music</Heading>
                 <Subtitle >Stream over 20 thousand sonds with one click</Subtitle>
-                <Link to= '/join'>
-                  <Button>Join Now
-                 
-                  </Button>
-                </Link>
+                
+                <ButtonNav><a href='#join'>Join Now</a>
+                 </ButtonNav>
+              
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>

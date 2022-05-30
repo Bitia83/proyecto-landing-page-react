@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { CirculoA } from '../../globalStyles';
-
+import { Button } from '../../globalStyles';
 
 export const MusicSec = styled.div`
  color: #fff;
@@ -64,14 +64,22 @@ export const TextWrapper = styled.div`
     padding-bottom: 65px;
   }
 `;
-
+export const ButtonNav = styled(Button)`
+a{
+color: #fff;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0.5rem 0.5rem;
+height: 80%;
+ }
+${Button}
+ `;
 
 export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
   justify-content: flex-end;
-
-
 
 `;
 

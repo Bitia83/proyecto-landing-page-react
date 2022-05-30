@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-
 import logo from '../../imagenes/logo.png';
-import { Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks } from './Navbar.elements';
+import { Nav, NavbarContainer, NavLogo, NavMenu, NavItem, } from './Navbar.elements';
 
 
 const Navbar = () => {
-  const [click, setClick] = useState(false);
+  /* const [click, setClick] = useState(false); */
     
-  const handleClick = () => setClick(!click);
+  /* const handleClick = () => setClick(!click); */
   
   return (
     <>
@@ -17,17 +16,15 @@ const Navbar = () => {
             <img src={logo} alt="" />
             SoundWave
           </NavLogo>
-          <NavMenu onClick={handleClick}>
+          <NavMenu>
             <NavItem>
-              <NavLinks to='/discover'>Discover
-              </NavLinks>
-            </NavItem>
-         
+              <a href='#discover'>Discover
+               </a>
+              </NavItem>  
             <NavItem>
-              <NavLinks to= '/join'>
-                Join
-              </NavLinks>
-            </NavItem>
+                <a href='#join' >Join
+               </a> 
+             </NavItem>
           </NavMenu>
         </NavbarContainer>
            </Nav>
