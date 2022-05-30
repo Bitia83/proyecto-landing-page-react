@@ -5,7 +5,6 @@ export const MusicSec = styled.div`
  color: #fff;
   padding: 200px 0;
   background: #2F303A;
-
 `;
 
 export const InfoRow = styled.div`
@@ -89,4 +88,3 @@ export const Subtitle = styled.p`
   margin-top: 15px;
   
 `;
-

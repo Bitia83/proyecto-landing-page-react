@@ -14,7 +14,6 @@ function App() {
       <Navbar />
       <MusicSection />
      <DiscoverSection/>
-
       <JoinSection/> 
       <FooterSection />
       </Router>

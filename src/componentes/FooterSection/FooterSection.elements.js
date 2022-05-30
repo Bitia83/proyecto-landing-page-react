@@ -19,9 +19,7 @@ export const FooterContainer = styled(Container)`
 display: flex;
 justify-content: space-between;
 height: 60px;
-
 ${Container}
-
 `;
 
 export const FooterRow = styled.div`
@@ -29,7 +27,6 @@ export const FooterRow = styled.div`
   flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
-
 `;
 
 export const FooterMenu = styled.ul`
@@ -39,7 +36,6 @@ export const FooterMenu = styled.ul`
   text-align: center;
   justify-content: space-between;
   
-
   @media screen and (max-width: 480px) {
    display: flex;
    width: 100%;
@@ -48,13 +44,11 @@ export const FooterMenu = styled.ul`
    top: 80px;
    transition: all 0.5s ease;
  }
-
 `;
 export const FooterItem = styled.li`
   height: 80px;
   border-bottom: 2px solid transparent;
  color: #fff;
-
   @media screen and (max-width: 960px) {
     width: 100%;
     &:hover {
