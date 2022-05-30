@@ -20,7 +20,7 @@ z-index: 999;
 export const NavbarContainer = styled(Container)`
 display: flex;
 justify-content: space-between;
-height: 80px;
+height: 65px;
 
 ${Container}
 
@@ -49,7 +49,6 @@ export const NavMenu = styled.ul`
     display: flex;
     width: 100%;
     height: 10vh; 
-    
     top: 80px;
     opacity: 1;
     transition: all 0.5s ease;
@@ -60,14 +59,14 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
   height: 80px;
   border-bottom: 2px solid transparent;
- a{
+  a{
   color: #fff;
-display: flex;
-align-items: center;
-text-decoration: none;
-padding: 0.5rem 1rem;
-height: 100%;
- }
+    display: flex;
+     align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+     height: 100%;
+    }
 
 
   &:hover {
@@ -81,23 +80,3 @@ height: 100%;
   }
 `; 
 
- /*export const NavLink = styled(Link)`
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  height: 100%;
- 
-  @media screen and (max-width: 960px) {
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-    display: table;
-   
-    &:hover {
-      color: #4b59f7;
-      transition: all 0.3s ease;
-    }
-  }
-`; */
