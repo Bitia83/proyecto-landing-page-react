@@ -12,10 +12,7 @@ function App() {
     <Router>
        <GlobalStyle />
       <Navbar />
-
-
-      
-      <MusicSection/>
+      <MusicSection />
       
       
       <DiscoverSection/>

@@ -61,7 +61,7 @@ export const Heading = styled.h1`
   margin-bottom: 5px;
   font-size: 48px;
   line-height: 1.1;
-  font-weight: 600;
+  font-weight: 530;
  
 `;
 
@@ -83,9 +83,10 @@ export const Child = styled.div`
 
 
 export const Subtitle = styled.p`
-  max-width: 440px;
+  max-width: 650px;
   margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 17px;
+  margin-top: 15px;
+  
 `;
 

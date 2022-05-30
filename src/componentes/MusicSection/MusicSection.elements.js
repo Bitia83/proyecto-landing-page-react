@@ -23,7 +23,11 @@ height: 600px;
 margin-top: 100px;
 margin-left: 950px;
 background:#3457b21a;
+
+${CirculoA}
 `;
+
+
 export const InfoRow = styled.div`
   display: flex;
   margin: 0 -15px -15px -15px;
@@ -48,6 +52,7 @@ export const InfoColumn = styled.div`
     flex-basis: 100%;
     display: flex;
     justify-content: center;
+   
   }
 `;
 
@@ -59,32 +64,41 @@ export const TextWrapper = styled.div`
     padding-bottom: 65px;
   }
 `;
+
+
 export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
-  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+  justify-content: flex-end;
+
+
+
 `;
+
+
 export const Img = styled.img`
   padding-right: 0;
   border: 0;
   max-width: 100%;
   vertical-align: middle;
-  display: inline-block;
+  display: flex;
   max-height: 500px;
+ 
+  @media screen and (max-width: 480) {
+  display: none;
+    }
 `;
-
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
-  font-weight: 600;
+  font-weight: 530;
 `;
 
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
-  line-height: 24px;
  `;
 

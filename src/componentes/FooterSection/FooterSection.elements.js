@@ -5,7 +5,7 @@ import { Container } from '../../globalStyles';
 
 export const FooterSec = styled.footer`
 background: #202027;
-height: 80px;
+height: 60px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -18,7 +18,7 @@ z-index: 999;
 export const FooterContainer = styled(Container)`
 display: flex;
 justify-content: space-between;
-height: 80px;
+height: 60px;
 
 ${Container}
 
@@ -88,32 +88,3 @@ export const FooterLogo = styled.div`
   align-items: center;
   margin-right: 40px;
 `;
-/*export const Row = styled.div`
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
-grid-gap: 20px;
-
-@media  (max-width: 1000px) {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    
-}
-`;
-
-export const Column = styled.div`
-display: flex;
-flex-direction: column;
-text-align: left;
-margin-left: 60px;
-`;
-
-export const Heading = styled.p`
-font-size: 15px;
-color:#fff;
-margin-bottom: 40px;
-font-weight: bold;
-`;
-
-export const FooterImg = styled.img`
-margin-right: 0.5rem;
-font-size: 3rem;
-`; */

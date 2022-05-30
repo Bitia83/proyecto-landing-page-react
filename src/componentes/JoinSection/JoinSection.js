@@ -10,11 +10,11 @@ const joinSection = (formStart) => {
       <>
           <JoinSec>
            <Container>
-           <CirculoD />
+           <CirculoD/>
             <CirculoE/> 
               <InfoRow formStart={formStart}> 
                   <InfoColumn>
-                  <Heading>Join The <span> fun.</span></Heading>
+                  <Heading>Join the <span> fun.</span></Heading>
                   </InfoColumn>  
                   <InfoColumn>
          <FormWrap>

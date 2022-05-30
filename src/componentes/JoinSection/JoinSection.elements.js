@@ -57,9 +57,11 @@ export const Heading = styled.h1`
   margin-bottom: 5px;
   font-size: 60px;
   line-height: 1.1;
-  font-weight: 600;
+  font-weight: 650;
   span {
     color: #F30094;
+    font-weight: 650;
+    font-size: 60px;
   }
 `;
 
