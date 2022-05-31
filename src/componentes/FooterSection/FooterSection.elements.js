@@ -22,13 +22,6 @@ height: 60px;
 ${Container}
 `;
 
-export const FooterRow = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: row;
-`;
-
 export const FooterMenu = styled.ul`
   display: flex;
   align-items: center;
@@ -36,12 +29,12 @@ export const FooterMenu = styled.ul`
   text-align: center;
   justify-content: space-between;
   
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 480px) {
    display: flex;
    width: 100%;
-   height: 90vh; 
+   height: 1vh; 
    position: absolute;
-   top: 80px;
+   top: 20px;
    transition: all 0.5s ease;
  }
 `;
@@ -51,9 +44,6 @@ export const FooterItem = styled.li`
  color: #fff;
   @media screen and (max-width: 960px) {
     width: 100%;
-    &:hover {
-      border: none;
-    }
   }
 `; 
 

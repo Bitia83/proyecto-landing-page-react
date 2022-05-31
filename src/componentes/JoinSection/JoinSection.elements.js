@@ -41,7 +41,7 @@ export const InfoRow = styled.div`
 export const InfoColumn = styled.div`
   
   margin-bottom: 15px;
-  padding-right: 55px;
+  padding-right: 15px;
   padding-left: 15px;
   flex: 1;
   max-width: 50%;
