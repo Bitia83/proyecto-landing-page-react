@@ -14,7 +14,13 @@ margin-top: 450px;
 width: 140px ;
 height: 140px;
 
-
+@media screen and (min-width: 480px) {
+  margin-left:-150px;
+  margin-top: 180px;
+  width: 40%;
+  height: 120%;
+}
+${CirculoA}
 `;
 
 export const CirculoE = styled(CirculoA)`
@@ -25,7 +31,14 @@ width: 150px ;
 height: 150px;
 background:#3457b21a;
 
+@media screen and (min-width: 480px) {
+  margin-left:150px;
+  margin-top: -250px;
+  width: 30%;
+  height: 100%;
+}
 
+${CirculoA}
 `;
 
 export const InfoRow = styled.div`
@@ -59,7 +72,7 @@ export const Heading = styled.h1`
   line-height: 1.1;
   font-weight: 650;
   span {
-    color: #F30094;
+    color: #BC3A80;
     font-weight: 650;
     font-size: 60px;
   }

@@ -25,7 +25,7 @@ export const CirculoC = styled(CirculoA)`
 width: 200px;
 height: 200px;
 margin-top: 350px;
-margin-left: 230px;
+margin-left: 180px;
 background:#3457b21a;
 
 @media screen and (min-width: 480px) {
@@ -101,9 +101,9 @@ export const Img = styled.img`
   vertical-align: middle;
   display: flex;
   max-height: 500px;
- 
-  @media screen and (max-width: 480) {
-  display: none;
+  
+ @media screen and (max-width: 480) {
+ display: none;
     }
 `;
 

@@ -6,7 +6,7 @@ import covers from '../../imagenes/covers.jpg'
 import microphone from '../../imagenes/microphone.svg'
 import albums from '../../imagenes/albums.svg'
 import more from '../../imagenes/more.svg'
-
+import  FooterSection  from '../FooterSection/FooterSection';
 
 
 
@@ -36,7 +36,7 @@ const DiscoverSection = ({ imgStart, start }) => {
               </InfoRow>
             </Container>
           </MusicSec>
-          
+          <FooterSection />
         </>
       );
     };
