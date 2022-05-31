@@ -39,7 +39,7 @@ export const CirculoA = styled.div`
 position: absolute;
  z-index: -1;
 
- @media screen and (max-width: 990px) {
+ @media screen and (max-width: 980px) {
    padding-right: 30px;
    padding-left: 30px;
    margin-top: 250px;

@@ -36,7 +36,7 @@ export const FooterMenu = styled.ul`
   text-align: center;
   justify-content: space-between;
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 980px) {
    display: flex;
    width: 100%;
    height: 90vh; 
