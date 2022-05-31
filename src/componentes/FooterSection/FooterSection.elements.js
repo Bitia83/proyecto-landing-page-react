@@ -28,19 +28,20 @@ export const FooterMenu = styled.ul`
   list-style: none;
   text-align: center;
   justify-content: space-between;
+  margin-right:-20px;
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 980px) {
    display: flex;
    width: 100%;
    height: 1vh; 
-   position: absolute;
+   position: relative;
    top: 20px;
    transition: all 0.5s ease;
  }
 `;
 export const FooterItem = styled.li`
-  height: 80px;
-  border-bottom: 2px solid transparent;
+  
+  
  color: #fff;
   @media screen and (max-width: 960px) {
     width: 100%;
@@ -52,8 +53,8 @@ export const FooterText = styled.p`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
-  height: 100%;
+  padding: 0.5rem ;
+ 
  
   @media screen and (max-width: 960px) {
     text-align: center;
@@ -70,5 +71,5 @@ export const FooterLogo = styled.div`
   font-size: 1rem;
   display: flex;
   align-items: center;
-  margin-right: 40px;
+  padding:0.5rem;
 `;
