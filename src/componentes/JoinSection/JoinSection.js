@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '../../globalStyles'
 import { CirculoD, CirculoE, InfoRow, InfoColumn, Heading, Form, FormWrap, FormContent, FormLabel, FormInput, FormButton, JoinSec  } from './JoinSection.elements'
-
+import FooterSection from '../FooterSection/FooterSection';
 
 
 
@@ -33,7 +33,8 @@ const joinSection = (formStart) => {
           </InfoColumn>      
       </InfoRow>        
           </Container>
-          </JoinSec>
+        </JoinSec>
+        <FooterSection />
     </>
   )
 }

@@ -10,7 +10,7 @@ function App() {
       <MusicSection />
      <DiscoverSection/>
       <JoinSection/> 
-      <FooterSection />
+      
       </>
   );
 }
