@@ -10,20 +10,30 @@ export const MusicSec = styled.div`
 `;
 
 export const CirculoB = styled(CirculoA)`
- margin-top: -110px;
- margin-left: 310px;
+ margin-top: -150px;
+ margin-left: 50px;
  background:#3457b21a;
 
- ${CirculoA}
+ @media screen and (min-width: 480px){
+   margin-left: 300px;
+ }
+${CirculoA}
 `;
 
 export const CirculoC = styled(CirculoA)`
-width: 600px;
-height: 600px;
-margin-top: 100px;
-margin-left: 950px;
+
+width: 200px;
+height: 200px;
+margin-top: 350px;
+margin-left: 230px;
 background:#3457b21a;
 
+@media screen and (min-width: 480px) {
+  margin-left:850px;
+  margin-top: 300px;
+  width: 40%;
+  height: 85%;
+}
 ${CirculoA}
 `;
 

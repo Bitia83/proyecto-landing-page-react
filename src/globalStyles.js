@@ -29,24 +29,26 @@ export const Container = styled.div`
 
  /* superponer div = position y z-index */
 export const CirculoA = styled.div`
- width: 370px;
- height: 370px;
- margin-top: 100px;
+ width: 140px;
+ height: 140px;
+ margin-top: 350px;
+ margin-left: -10px;
  -moz-border-radius: 50%;
  -webkit-border-radius: 50%;
  border-radius: 50%;
  background: #bc3a801a;
 position: absolute;
  z-index: -1;
+ 
 
- @media screen and (max-width: 980px) {
+ @media screen and (min-width: 480px) {
    padding-right: 30px;
-   padding-left: 30px;
-   margin-top: 250px;
+   padding-left: 60px;
+   margin-top: 120px;
    width: 30%;
-   height:20%;
+   height:65%;
  }
-`;
+`;  
 
 
 export const Button = styled.button`
