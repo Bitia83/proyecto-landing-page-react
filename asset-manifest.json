@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/proyecto-landing-page-react/static/js/main.b8bbd9af.js",
+    "main.js": "/proyecto-landing-page-react/static/js/main.13148e0a.js",
     "static/media/landing.png": "/proyecto-landing-page-react/static/media/landing.9d276ac0bfa4c188903e.png",
     "static/media/covers.jpg": "/proyecto-landing-page-react/static/media/covers.77f7098f609ef18767e5.jpg",
     "static/media/microphone.svg": "/proyecto-landing-page-react/static/media/microphone.ca0d2681d674315e1f303c69e6aa4c12.svg",
@@ -9,9 +9,9 @@
     "index.html": "/proyecto-landing-page-react/index.html",
     "static/media/facebook.svg": "/proyecto-landing-page-react/static/media/facebook.9a78c5da61adcff89056f886e3b14dcd.svg",
     "static/media/albums.svg": "/proyecto-landing-page-react/static/media/albums.edcbb360c6cfb46704f7516b3c510d45.svg",
-    "main.b8bbd9af.js.map": "/proyecto-landing-page-react/static/js/main.b8bbd9af.js.map"
+    "main.13148e0a.js.map": "/proyecto-landing-page-react/static/js/main.13148e0a.js.map"
   },
   "entrypoints": [
-    "static/js/main.b8bbd9af.js"
+    "static/js/main.13148e0a.js"
   ]
 }
