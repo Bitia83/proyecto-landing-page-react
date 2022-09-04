@@ -25,14 +25,14 @@ export const CirculoC = styled(CirculoA)`
 width: 200px;
 height: 200px;
 margin-top: 350px;
-margin-left: 180px;
+margin-left: 145px;
 background:#3457b21a;
 
 @media screen and (min-width: 480px) {
   margin-left:850px;
   margin-top: 300px;
-  width: 40%;
-  height: 85%;
+  width: 38%;
+  height: 82%;
 }
 ${CirculoA}
 `;

@@ -36,7 +36,7 @@ const DiscoverSection = ({ imgStart, start }) => {
               </InfoRow>
             </Container>
           </MusicSec>
-          <FooterSection />
+         
         </>
       );
     };
