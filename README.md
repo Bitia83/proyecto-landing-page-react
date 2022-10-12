@@ -1,14 +1,13 @@
-in# Getting Started with Create React App
+# Getting Started with Create React App
 
-#  Landing page
+##  Landing page
+- github-pages (https://bitia83.github.io/proyecto-landing-page-react/)
 
 ![](/src/imagenes/music.png)
 
+A landing page project build using [React](https://github.com/facebook/create-react-app) and  [styled components](https://styled-components.com/docs).
 
 
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
