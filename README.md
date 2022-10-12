@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 ##  Landing page
-- github-pages (https://bitia83.github.io/proyecto-landing-page-react/)
+- github-pages [https://bitia83.github.io/proyecto-landing-page-react/](https://bitia83.github.io/proyecto-landing-page-react/)
 
 ![](/src/imagenes/music.png)
 
