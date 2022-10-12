@@ -1,40 +1,8 @@
 in# Getting Started with Create React App
 
-# Crear pagina Landing page
+#  Landing page
 
-## paso 0
-crear globalstyled mirar estilos generales para utilizar en todas las secciones 
-Crear la carpeta de imagenes dentro del proyecyo
-## Paso 1
-Crear Navbar
-*investigar sobre como crear un navbar en documentoso y videos , obtener codigo css para trabajar y editar en el proyecto 
-
-## paso 2 
-Crear MusicSection 
-*Investigar y estudiar sobre estructuras en styled components para hacer la estructura de musicsection
-*investigar y estudiar styled component y estilos  css para obetener codigo y editar en el proyecyo 
-
-## Paso 3 
-Crear Discover Section
-*utlizar parte del codigo de Stilo de MusicSection tanto de la estructura como de los estilos 
-
-## paso 4 
-Crear Join Section
-
-*buscar informacion de como crear un formulario con styled componentes para trabajar y editar en la seccion Join Section
-utilizar codigo de globalStyeled
-
-## paso 5 
-
-Crear footer 
-buscar informacion de como crear la estructura footer en react y estilos con styled components
-
-## Paso 6
-
-navegacion de la pagina 
-
-
-
+![](/src/imagenes/music.png)
 
 
 
